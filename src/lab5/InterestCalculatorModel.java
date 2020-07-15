@@ -12,7 +12,7 @@ public class InterestCalculatorModel {
 	}
 	public void setPrinciple(double principle) {
 		this.principle = principle;
-	}
+	}     
 	public double getRate() {
 		return rate;
 	}
@@ -25,7 +25,7 @@ public class InterestCalculatorModel {
 	public double getTerm() {
 		return term;
 	}
-	
+	   //hi
 	public double calculateInterest() { // calculates simple interest and returns the interest where the method was called
 		double interest = 0.0;
 		interest = principle* rate * term;

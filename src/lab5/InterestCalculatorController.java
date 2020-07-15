@@ -13,7 +13,9 @@ public class InterestCalculatorController {
 		this.interestCalculatorModel = interestCalculatorModel;
 		this.interestCalculatorView = interestCalculatorView; 
 		
+		     // hi 
 		
+		    
 		class ButtonListener implements ActionListener{ // button listener class used when user clicks calculates from view component 
 			public void actionPerformed(ActionEvent evt) {
 				interestCalculatorModel.setPrinciple(interestCalculatorView.getPrinciple()); // setting and getting each property 
@@ -21,7 +23,7 @@ public class InterestCalculatorController {
 				interestCalculatorModel.setTerm(interestCalculatorView.getTerm());
 				interestCalculatorView.setlblSimpleInt(interestCalculatorModel.calculateInterest()); // updating value from label to display the interest 
 			}
-			
+			        
 		}
 		interestCalculatorView.addBtnCalcListener(new ButtonListener());
 	}
